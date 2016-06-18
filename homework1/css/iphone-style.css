@@ -1,0 +1,165 @@
+/*基本設定*/
+
+* {
+	box-sizing: border-box;
+}
+
+div:nth-child(1) {
+	border: 1px solid black;
+	position: fixed;
+	margin: 0;
+	display: none;
+}
+
+div:nth-child(1) img {
+	max-width: 45%;
+}
+
+div:nth-child(2) {
+	position: absolute;
+	width: 5px;
+	height: 23px;
+	margin: 78px 11px;
+	background-color: #f5e0dd;
+	border-radius: 2px;
+}
+
+div:nth-child(3) {
+	position: absolute;
+	width: 5px;
+	height: 43px;
+	margin: 130px 11px;
+	background-color: #f5e0dd;
+	border-radius: 2px;
+}
+
+div:nth-child(4) {
+	position: absolute;
+	width: 5px;
+	height: 43px;
+	margin: 185px 11px;
+	background-color: #f5e0dd;
+	border-radius: 2px;
+}
+
+div:nth-child(5) {
+	position: absolute;
+	width: 5px;
+	height: 43px;
+	margin: 130px 300px;
+	background-color: #f5e0dd;
+	border-radius: 2px;
+}
+
+div:nth-child(6) {
+	position: absolute;
+	margin: 0 13px;
+	width: 290px;
+	height: 600px;
+	border: 5px solid #f5e0dd;
+	border-radius: 45px;
+}
+
+div:nth-child(7) {
+	position: absolute;
+	margin: 50px 13px;
+	width: 290px;
+	border: 5px solid rgb(192, 192, 192);
+}
+
+div:nth-child(8) {
+	position: absolute;
+	margin: 545px 13px;
+	width: 290px;
+	border: 5px solid rgb(192, 192, 192);
+}
+
+div:nth-child(9) {
+	position: absolute;
+	margin: 5px 17px;
+	background-color: white;
+	width: 282px;
+	height: 591px;
+	border-radius: 40px;
+}
+
+
+/*白色面板*/
+
+div:nth-child(10) {
+	position: absolute;
+	width: 258px;
+	height: 455px;
+	margin: 74px 28px;
+	background-color: black;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+	background: #45484d;
+	/* Old browsers */
+	background: -moz-linear-gradient(-45deg, #45484d 0%, #000000 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #45484d 0%, #000000 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #45484d 0%, #000000 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+
+
+/*黑色螢幕*/
+
+div:nth-child(11) {
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	margin: 18px 154px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+div:nth-child(12) {
+	position: absolute;
+	width: 45px;
+	height: 5px;
+	margin: 38px 135px;
+	background-color: black;
+	border-radius: 2px;
+}
+
+div:nth-child(13) {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	margin: 35px 106px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+div:nth-child(14) {
+	position: absolute;
+	width: 46px;
+	height: 46px;
+	margin: 540px 135px;
+	background-color: hsl(7, 57%, 91%);
+	border-radius: 50%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f4dad6+50 */
+	background: #ffffff;
+	/* Old browsers */
+	background: -moz-linear-gradient(45deg, #ffffff 0%, #f4dad6 50%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #ffffff 0%, #f4dad6 50%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #ffffff 0%, #f4dad6 50%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4dad6', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+
+div:nth-child(15) {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin: 543px 138px;
+	background-color: white;
+	border-radius: 50%;
+}
